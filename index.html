@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry Liya 💔</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff4d6d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63950;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>I'm really sorry, Liya 💔</h1>
+    <p>
+        I know I hurt you… and honestly it's hurting me a lot too.  
+        I didn’t mean to cause you pain.  
+        You mean so much to me, more than I can explain.  
+        I wish I could undo what I did.  
+        I'm truly sorry, Liya… please forgive me 🥺
+    </p>
+
+    <button onclick="showMessage()">Tap here</button>
+</div>
+
+<script>
+function showMessage() {
+    document.querySelector(".container").innerHTML =
+    "<h1>💖</h1><p>I really care about you, Liya… I just want things to be okay again.</p>";
+}
+</script>
+</body>
+</html>
